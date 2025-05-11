@@ -33,6 +33,8 @@ cd example-voting-app/k8s-specifications
 ```bash
 ## Création d'un namespace pour isoler nos ressources
 kubectl create ns voting-app  
+![pods](./screenREADME/1Déploiement des services de données.png)
+
   
 ## Déploiement des services de données
 kubectl apply -f redis-deployment.yaml -n voting-app  
@@ -54,7 +56,7 @@ kubectl apply -f result-service.yaml -n voting-app
 ```bash
 kubectl get pod -n voting-app  
 ```
-![pods](./images/pods.JPG)
+![pods](./)
 On retrouve bien tous nos pods qui sont en état running.  
 
 ```bash
