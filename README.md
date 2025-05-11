@@ -33,7 +33,7 @@ cd example-voting-app/k8s-specifications
 ```bash
 ## Création d'un namespace pour isoler nos ressources
 kubectl create ns voting-app  
-![pods](./screenREADME/1Déploiement des services de données.png)
+(./screenREADME/1Déploiement des services de données.png)
 
   
 ## Déploiement des services de données
