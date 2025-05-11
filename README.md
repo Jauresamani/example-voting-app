@@ -23,7 +23,7 @@ On y retrouve nos différents pods et services ainsi que la communication entre 
 L'application de vote fonctionne comme un système distribué composé de plusieurs services interconnectés. L'utilisateur interagit d'abord avec une application web frontend, qui lui permet de voter entre deux options. Lorsqu’un vote est soumis, il est envoyé à un serveur Redis, qui joue le rôle de file d’attente pour stocker temporairement les votes de manière rapide et efficace. Ensuite, un worker interroge Redis pour récupérer les nouveaux votes. Chaque vote récupéré est ensuite enregistré dans une base de données PostgreSQL,  pour garantir que les données ne soient pas perdues en cas de redémarrage. Enfin, une application web se connecte à cette base de données pour afficher les résultats du vote en temps réel, en les mettant à jour dynamiquement afin que les utilisateurs puissent voir l’évolution des votes en direct.  
   
 ## Clonage du dépôt
-![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/1De%CC%81ploiement%20des%20services%20de%20donne%CC%81es.png) 
+
 ```bash
 git clone https://github.com/dockersamples/example-voting-app.git
 cd example-voting-app/k8s-specifications
@@ -33,7 +33,8 @@ cd example-voting-app/k8s-specifications
 ```bash
 ## Création d'un namespace pour isoler nos ressources
 kubectl create ns voting-app  
-![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/1De%CC%81ploiement%20des%20services%20de%20donne%CC%81es.png)  
+
+![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/1De%CC%81ploiement%20des%20services%20de%20donne%CC%81es.png) 
 
   
 ## Déploiement des services de données
