@@ -94,10 +94,10 @@ On retrouve bien toutes nos ressources créées et utilisées par notre applicat
   
 ## Accéder et tester l'aplication
 On peut vérifier l'adresse ip du node avec la commande :  
-```bash
+
 kubectl describe node  
-```  
-![image alt] (https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/8descri.png)
+
+![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/8descri.png)
 
 Et ensuite accéder à l'interface de vote depuis le navigateur : http://192.168.49.2:31000  
 ![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/9vote.png) 
