@@ -16,9 +16,9 @@ Schéma architectural clair des objets Kubernetes déployés et leurs relations 
  
 ## Prérequis
  
-Un cluster fonctionnel (Minikube)
-kubectl installé et configuré
-Git installé
+- Un cluster fonctionnel (Minikube)
+- kubectl installé et configuré
+- Git installé
  
 ---
 
