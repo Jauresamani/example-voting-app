@@ -116,8 +116,9 @@ Accéder à l'interface de resultat: http://192.168.49.2:31001
   
 ## Résultats
 Resultats en en temps réel :
-![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/11votedirect.png)  
 ![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/12resultdirect.png)  
+![image alt](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/11votedirect.png)  
+
 
 
 ## Conclusion 
