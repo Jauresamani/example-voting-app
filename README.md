@@ -1,3 +1,7 @@
+Nom : AMANI Kouakou Jaures De Sales
+
+ESGI 5SRC2
+
 # Projet Kubernetes - Déploiement de l'application Example Voting App
 
 ## Contexte
