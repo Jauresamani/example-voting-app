@@ -24,7 +24,7 @@ Schéma architectural clair des objets Kubernetes déployés et leurs relations 
 
 # Infrastructure mise en place
 
-![architecture](./images/architecture.JPG)  
+![archi](https://github.com/Jauresamani/example-voting-app/blob/main/screenREADME/Archi.png)  
 Architecture mise en place pour notre application avec les differents commposants kubernetes, services, pods, ressources et liaisons.  
 
 
